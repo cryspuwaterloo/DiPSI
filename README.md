@@ -53,7 +53,7 @@ Setup for HELib:
 Get Anaconda (https://www.anaconda.com/distribution/#linux) and set up a conda environment, install Armadillo (https://anaconda.org/conda-forge/armadillo) and NTL 10.3.0 (https://anaconda.org/conda-forge/ntl)
 
 0. Clone this repository 
-``git clone https://github.com/PSISubmission/PSISubmission``
+``git clone https://https://github.com/NilsHendrikLukas/DiPSI/``
 1. In the ``./CMakeLists.txt`` change the path of the NTL include and lib library to your paths i.e. the path given 
 by the conda environment.
 2. Run the cmake 
