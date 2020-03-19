@@ -1,3 +1,6 @@
+This is the official repository  for our EuroSP 2020 paper on Differentially Private Set Intersection (DiPSI):
+Paper Link: TBD
+
 Abstract
 ======
 Private set intersection (PSI) allows two parties to
@@ -25,9 +28,6 @@ for large data sets containing millions of elements.
 Description
 =======
 The source code implements the for Differentially Private Set Intersection (DiPSI) using HELib (version from January 2019).
-
-This code implements and benchmarks the PSI as described our EuroSP 2020 paper:
-Link: TBD
 
 The most important files are the following
 
