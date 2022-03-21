@@ -193,7 +193,7 @@ ServerResponse PSIServer::perform_psi(ClientRequest &req, const ExperimentParams
                     }
                     // Load the correct horizontal chunk from the server batch
                     vector<long> chunk = get_chunk(server_batch, n_slots, hi);
-                    if (params.apply_diff_privacy) {
+                    if (mode == INTERSECTION && params.apply_diff_privacy) {
                         apply_diff_privacy(chunk, fake_x_vec.at(vi), params.no_match);
                     }
                     // cout << "client index: " << vi  << " hash: " << hash_nr << " j: " << j << " hi: " << hi << " vi: " << vi << " Chunk: " << chunk << endl;
